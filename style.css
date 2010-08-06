@@ -1,0 +1,131 @@
+/*
+Theme Name: k2able
+Theme URI: http://admirableadmin.de/
+Description: Styling K2 for admirableadmin
+Author: Andreas Peichert
+Author URI: http://admirableadmin.de/
+Template: k2
+*/
+
+
+/*
+Signs: inspired by Blue-K2 1.0 from Th3 ProphetMan http://bluek2.moskis.net/blue-k2/
+ */
+
+.quote {
+  background: url('parrafo-quote.png') 25px 4px no-repeat;
+  margin: 10px auto;
+  min-height: 35px;
+  padding: 0 30px 0 67px;
+  }
+
+.alert {
+  text-align: center;
+  font-weight: bold;
+  font-size: 11px;
+  }
+
+.alert2 {
+  background: #FFF6BF url('parrafo-alert.png') 10px center no-repeat;
+  border-top: 2px solid #FFD324;
+  border-bottom: 2px solid #FFD324;
+  padding: 10px 10px 10px 52px;
+  text-align: center;
+  line-height: normal;
+  }
+
+.download {
+  background: #D0F29D url('parrafo-download.png') 10px center no-repeat;
+  border-top: 2px solid #9CD941;
+  border-bottom: 2px solid #9CD941;
+  padding: 10px 10px 10px 52px;
+  text-align: center;
+  line-height: normal;
+  }
+
+.construction {
+  background: #ffcccc url('parrafo-cross.png') 10px center no-repeat;
+  border-top: 2px solid #c90404;
+  border-bottom: 2px solid #c90404;
+  padding: 10px 10px 10px 52px;
+  text-align: center;
+  line-height: normal;
+  }
+
+.favorite {
+  background: #FFF6BF url('parrafo-favorite.png') 10px center no-repeat;
+  border-top: 2px solid #FFD324;
+  border-bottom: 2px solid #FFD324;
+  padding: 10px 10px 10px 52px;
+  text-align: center;
+  line-height: normal;
+  }
+
+.info {
+  background: #9DD1F2 url('parrafo-info.png') 10px center no-repeat;
+  border-top: 2px solid #419ED9;
+  border-bottom: 2px solid #419ED9;
+  padding: 10px 10px 10px 52px;
+  text-align: center;
+  line-height: normal;
+  }
+
+.question {
+  background: #9DD1F2 url('parrafo-question.png') 10px center no-repeat;
+  border-top: 2px solid #419ED9;
+  border-bottom: 2px solid #419ED9;
+  padding: 10px 10px 10px 52px;
+  text-align: center;
+  line-height: normal;
+  }
+
+.code {
+  background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
+  border-top: 2px solid #CCC;
+  border-bottom: 2px solid #CCC;
+  padding: 10px 10px 10px 52px;
+  text-align: left;
+  font: 1em 'Courier New', Courier, Fixed, monospace;
+  min-height: 30px;
+  }
+
+code {
+  display: block;
+  background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
+  border-top: 2px solid #CCC;
+  border-bottom: 2px solid #CCC;
+  padding: 10px 10px 10px 52px;
+  text-align: left;
+  font: 1em 'Courier New', Courier, Fixed, monospace;
+  min-height: 30px;
+  }
+
+#entry-author-info {
+  background: #f2f7fc;
+  border-top: 2px solid #CCC;
+  border-bottom: 2px solid #CCC;
+  clear: both;
+  font-size: 11px;
+  line-height: 20px;
+  margin: 24px 0;
+  overflow: hidden;
+  padding: 18px 20px;
+}
+#entry-author-info #author-avatar {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  float: left;
+  height: 60px;
+  margin: 0 -104px 0 0;
+  padding: 11px;
+}
+#entry-author-info #author-description {
+  float: left;
+  margin: 0 0 0 104px;
+}
+#entry-author-info h2 {
+  color: #000;
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 0;
+}
