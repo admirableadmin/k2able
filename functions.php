@@ -95,4 +95,26 @@ function add_meta_author() {
 // http://wordpress.org/support/topic/remove-ltmeta-namegenerator-contentwordpress-25-gt
 remove_action('wp_head', 'wp_generator');
 
+// away
+add_action('wp_head', 'overwrite_header_image_when_away_tag_is_shown');
+function overwrite_header_image_when_away_tag_is_shown() {
+	if ( is_tag('away') || has_tag('away') ) :
+		// from k2-for-wordpress/app/classes/header.php
+		$images = K2::files_scan(K2_HEADERS_DIR . "/away", array('gif','jpeg','jpg','png'), 1);
+		$size = count($images);
+		if ( $size > 1 )
+			$header_image = $images[ rand(0, $size - 1) ];
+		else
+			$header_image = $images[0];
+		$image_url = K2_HEADERS_URL . "/away/$header_image"
+?>
+
+		<style type="text/css">
+			#header {
+				background-image: url("<?php echo $image_url; ?>") !important;
+			}
+		</style>
+	<?php endif;
+}
+
 ?>
